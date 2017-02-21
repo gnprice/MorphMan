@@ -73,7 +73,7 @@ model_overrides = {
     'Yotsubato':        { 'enabled':True, 'set due based on mmi': True },
     'Rikaisama':        { 'enabled':True, 'set due based on mmi': False },
    #'Kore':             { 'enabled':True, 'set due based on mmi': False, 'morph_fields':[u'SentenceExpression'] },
-    'Kore':             { 'enabled':True, 'set due based on mmi': False },
+#    'Kore':             { 'enabled':True, 'set due based on mmi': False },
 }
 
 # Deck overrides can only override 'new card merged fill' options. 1st priority
