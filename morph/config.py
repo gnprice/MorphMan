@@ -45,7 +45,7 @@ default = {
         # try playing fields in this order when using batch media player
     'batch media fields': [ u'Video', u'Sound' ],
         # configure morph man index algorithm
-    'min good sentence length': 2,
+    'min good sentence length': 1,
     'max good sentence length': 8,          # +1000 MMI per morpheme outside the "good" length range
     'reinforce new vocab weight': 5.0,      # -reinforce_weight / maturity MMI per known that is not yet mature
     'verb bonus': 100,                      # -verb_bonus if at least one unknown is a verb
