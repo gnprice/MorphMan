@@ -51,7 +51,7 @@ default = {
     'verb bonus': 100,                      # -verb_bonus if at least one unknown is a verb
     'priority.db weight': 200,              # -priority_weight per unknown that exists in priority.db
         # lite update
-    'only update k+2 and below': False,     # this reduces how many notes are changed and thus sync burden by not updating notes that aren't as important
+    'only update k+2 and below': True,      # this reduces how many notes are changed and thus sync burden by not updating notes that aren't as important
 
     # only these can have deck overrides
     'next new card feature':True,   # skip cards with focusMorph that was already seen or aren't k+1
